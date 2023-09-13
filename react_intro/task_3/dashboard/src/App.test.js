@@ -1,5 +1,14 @@
+import React from 'react';
 import {shallow} from 'enzyme';
 import App from './App';
+
+let wrapper;
+
+afterEach(() => {
+    if (wrapper) {
+        wrapper.unmount();
+    }
+});
 
 describe('<App />', () => {
     test('renders without crashing', () => {
