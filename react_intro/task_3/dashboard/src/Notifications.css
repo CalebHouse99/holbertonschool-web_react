@@ -1,0 +1,32 @@
+.Notifications {
+    position: relative;
+    padding: 1rem 2rem;
+    border: 1px dashed #E0354B;
+    margin: 5rem;
+}
+
+.Notifications ul li[data-priority="default"] {
+    color: blue;
+}
+
+.Notifications ul li[data-priority="urgent"] {
+    color: #E0354B;
+}
+
+.Notifications button img {
+    width: 10px;
+    height: 10px;
+}
+
+.Notifications button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+.Notifications button:hover {
+    cursor: pointer;
+    background: #ccc;
+}
