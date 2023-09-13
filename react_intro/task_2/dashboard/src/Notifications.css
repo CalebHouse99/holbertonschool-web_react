@@ -1,4 +1,18 @@
 .Notifications {
+    position: relative;
     padding: 1rem 2rem;
-    border: 1px solid #e8e8e8;
+    border: 1px dashed red;
+    margin: 5rem;
+}
+
+.Notifications button img {
+    width: 10px;
+    height: 10px;
+}
+
+.Notifications button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
 }

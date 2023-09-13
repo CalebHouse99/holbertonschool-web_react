@@ -12,8 +12,8 @@ function Notifications() {
                 <li data-priority="urgent">New resume available</li>
                 <li dangerouslySetInnerHTML={{ __html: getLatestNotification() }}></li>
             </ul>
-            <button aria-label="Close" onClick={() => console.log("Close button has been clicked")} style={{position: 'absolute', right: '0px'}}>
-                <img src={closeIcon} alt="Close icon"/>
+            <button aria-label="Close" onClick={() => console.log("Close button has been clicked")} style={{ position: 'absolute', right: '0px', top: '0px' }}>
+                <img src={closeIcon} alt="Close icon" />
             </button>
         </div>
     )

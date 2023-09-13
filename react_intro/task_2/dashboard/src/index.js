@@ -11,7 +11,6 @@ root.render(
         <App />
     </React.StrictMode>
 );
-ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(<Notifications />, document.getElementById('root-notifications'));
 
 // If you want to start measuring performance in your app, pass a function

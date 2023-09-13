@@ -9,10 +9,10 @@ function App() {
                 {/* <Notifications/> */}
             </header>
             <div className="App-body">
-                <label htmlFor='email'>Email</label>
-                <input type='email' id='email'/>
-                <label htmlFor='password'>Password</label>
-                <input type='password' id='password'/>
+                <label htmlFor='email'>Email:</label>
+                <input type='email' id='email' />
+                <label htmlFor='password'>Password:</label>
+                <input type='password' id='password' />
                 <button>OK</button>
             </div>
             <footer className="App-footer">
