@@ -6,7 +6,8 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                {/* <Notifications/> */}
+                <img src='./holberton-logo.jpg' alt='logo'></img>
+                <h1>School dashboard</h1>
             </header>
             <div className="App-body">
                 <label htmlFor='email'>Email:</label>
@@ -16,7 +17,7 @@ function App() {
                 <button>OK</button>
             </div>
             <footer className="App-footer">
-                <p>{getFooterCopy(true)} - {getFullYear()}</p>
+                <p><em>{getFooterCopy(true)} - {getFullYear()}</em></p>
             </footer>
         </div>
     );
