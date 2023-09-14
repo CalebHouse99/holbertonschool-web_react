@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App .App-header {
+  display: flex;
+  color: #E0354B;
+  font-size: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 5px solid #E0354B;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.App .App-body input {
+    margin: 0 .5rem;
+}
+
+.App .App-footer {
+    border-top: 5px solid #E0354B;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
